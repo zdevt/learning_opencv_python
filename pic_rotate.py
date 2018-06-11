@@ -6,7 +6,7 @@
 #
 #        Version:  1.0
 #        Created:  2018-06-11 11:01:45
-#  Last Modified:  2018-06-11 11:21:47
+#  Last Modified:  2018-06-11 14:59:58
 #       Revision:  none
 #       Compiler:  gcc
 #
@@ -17,7 +17,7 @@ import cv2
 from math import *
 import numpy as np
 
-img = cv2.imread('./sprite.png')
+img = cv2.imread('tmpl.png')
 h, w = img.shape[:2]
 
 d = 45
@@ -31,6 +31,7 @@ mr[1, 2] += (hn - h) / 2
 
 imgr = cv2.warpAffine(img, mr, (wn, hn), borderValue=(255, 255, 255))
 
+cv2.imwrite("tmplr.png", imgr)
 cv2.imshow("img", img)
 cv2.imshow("imgr", imgr)
 cv2.waitKey(0)
