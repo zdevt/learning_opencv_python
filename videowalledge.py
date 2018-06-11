@@ -1,4 +1,4 @@
-#!/usr/bin/python  
+#!/usr/bin/env python
 #-*- coding:utf-8 -*-  
 ############################################################################### 
 #       File Name: 69_threshold.py
@@ -12,7 +12,6 @@ import imutils
 import numpy as np
 from matplotlib import pyplot as plt
 
-#img = cv2.imread('./img_0090.jpg',0)
 img = cv2.imread('../../data/board.jpg',0)
 
 img = cv2.medianBlur(img, 7)

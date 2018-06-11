@@ -1,3 +1,5 @@
+#!/usr/bin/env python  
+#-*- coding:utf-8 -*-  
 # This script will detect faces via your webcam.
 # Tested with OpenCV3
 
@@ -6,7 +8,7 @@ import cv2
 cap = cv2.VideoCapture(0)
 
 # Create the haar cascade
-faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+faceCascade = cv2.CascadeClassifier("./data/haarcascade_frontalface_default.xml")
 
 while(True):
 	# Capture frame-by-frame

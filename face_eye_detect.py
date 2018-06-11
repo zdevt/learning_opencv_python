@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python  
 #-*- coding:utf-8 -*-
 #       FileName:  face_eye_detect.py
 #
@@ -6,7 +6,7 @@
 #
 #        Version:  1.0
 #        Created:  2018-06-11 13:26:21
-#  Last Modified:  2018-06-11 13:58:28
+#  Last Modified:  2018-06-11 14:19:56
 #       Revision:  none
 #       Compiler:  gcc
 #

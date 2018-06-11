@@ -1,10 +1,11 @@
-
+#!/usr/bin/env python  
+#-*- coding:utf-8 -*-  
 
 import cv2
 import numpy as np
 
 
-img1 = cv2.imread('/home/zt/test/lena.jpg')
+img1 = cv2.imread('/Users/devz/data/lena.jpg')
 
 
 e1 = cv2.getTickCount()
