@@ -13,7 +13,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 #img = cv2.imread('./img_0090.jpg',0)
-img = cv2.imread('../../../../data/board.jpg',0)
+img = cv2.imread('../../data/board.jpg',0)
 
 img = cv2.medianBlur(img, 7)
 th3 = cv2.adaptiveThreshold(img,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
