@@ -4,8 +4,8 @@
 import cv2
 import numpy as np
 
-img1 = cv2.imread('~/data/left.jpg')
-img2 = cv2.imread('~/data/right.jpg')
+img1 = cv2.imread('/Users/devz/data/right.jpg')
+img2 = cv2.imread('/Users/devz/data/left.jpg')
 
 rows, cols, channels = img2.shape
 

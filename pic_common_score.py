@@ -6,7 +6,7 @@
 #
 #        Version:  1.0
 #        Created:  2018-06-11 15:14:22
-#  Last Modified:  2018-06-11 15:27:33
+#  Last Modified:  2018-06-29 09:07:37
 #       Revision:  none
 #       Compiler:  gcc
 #
@@ -124,6 +124,6 @@ if __name__ == '__main__':
     degree = classify_hist_with_split(img1, img2)
     # degree = classify_aHash(img1,img2)
     # degree = classify_pHash(img1, img2)
-    print degree
+    print( degree)
 
     cv2.waitKey(0)
